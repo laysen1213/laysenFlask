@@ -7,7 +7,7 @@ class MysqlHelper:
             host = 'localhost',
             port = 3306,
             user = 'root',
-            password = 'root',
+            password = 'ngwse9d2FH12412fsFd',
             db = 'laysen',
             charset = 'utf8',
             cursorclass=pymysql.cursors.DictCursor

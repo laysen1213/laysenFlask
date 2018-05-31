@@ -45,5 +45,9 @@ def detail():
 
 if __name__ == '__main__':
 	#调试模式
-	app.debug = False
-	app.run()
+	# app.debug = False
+	app.run(
+		host = '127.0.0.1',
+		port = 5000,  
+		debug = False 
+	)
