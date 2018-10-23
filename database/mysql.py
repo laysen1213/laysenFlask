@@ -6,8 +6,8 @@ class MysqlHelper:
         return pymysql.connect(
             host = 'localhost',
             port = 3306,
-            user = 'root',
-            password = 'ngwse9d2FH12412fsFd',
+            user = 'project',
+            password = '8B5665784254D8AF2F18E314C4CEAA05',
             db = 'laysen',
             charset = 'utf8',
             cursorclass=pymysql.cursors.DictCursor
